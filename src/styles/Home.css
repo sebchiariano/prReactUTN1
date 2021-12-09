@@ -1,0 +1,28 @@
+.pr{
+    padding: 4px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.titu{
+    font-weight: bolder;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    color:gray;
+    text-shadow: 0 0 1px black, 0 0 1px black;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    width:100%;
+ 
+}
+
+.formSearch{
+    padding-top: 10px;
+ 
+}

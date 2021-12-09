@@ -1,0 +1,39 @@
+.prod{
+    box-shadow: 0px 0px 15px 5px #727272;    ;
+
+    background-color: rgb(227, 241, 243);
+
+    padding: 10px;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tit{
+    font-weight: bolder;
+}
+
+.pict{
+
+    object-fit: cover;
+	max-height: 250px;
+    background-size: cover;
+    padding-top:10px;
+    
+}
+
+.contPic
+{
+    margin: 0 auto;
+    background-color:white;
+    height:280px;
+    width: 500px;
+    background-size: cover;
+    box-shadow: inset 0px 0px 3px 1px #C1C1C1;
+}
+
+Card.Img{
+    object-fit: cover;
+    height:200px;
+    max-width: 200px;
+}

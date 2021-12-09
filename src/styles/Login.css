@@ -1,0 +1,88 @@
+.compLog{
+   
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+.contLog{
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    
+    position:relative;
+    
+
+    padding-top:4%;
+    padding-bottom:17%;
+    margin: 0 auto;
+    margin-top: 5vmax;
+}
+
+.formLog{
+    margin: 0 auto;
+   
+    text-align: center;
+    width: 450px;
+    position: relative;
+    box-shadow: 0px 2px 2px lightgrey;
+}
+
+.hea{
+    align-items: center;
+    text-align: center;
+    border: 1px ridge lightgrey;
+    background-color:#6cf;
+    box-shadow: 0px 2px 2px lightgrey;
+    color: linen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bod{
+    align-items: center;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:30px;
+    border: 1px ridge lightgrey;
+    border-bottom: 1px white;
+
+}
+
+.foo{
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    padding-top: 5px;
+    border: 1px ridge lightgrey;
+    border-top: 1px white;
+
+}
+
+.input{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:300px;
+    height: 25px;
+    border: 1px ridge lightgrey;
+    box-shadow: 0px 2px 2px lightgrey;
+}
+
+.button{
+    width:300px;
+    height: 55px;
+    border-color: rgb(54, 52, 52);
+    color: linen;
+    background-color: rgb(54, 52, 52);
+    font-weight: bolder;
+}
+
+.button:hover{
+    border-color:rgb(80, 85, 87);
+    background-color:rgb(80, 85, 87);
+    color:white;
+}
