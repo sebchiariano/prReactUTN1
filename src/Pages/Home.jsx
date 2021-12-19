@@ -2,7 +2,7 @@ import React from "react";
 
 import '../styles/Home.css';
 
-import ConsultaListadoProductosFireBase from './ABMProductos/ConsultaListadoProductosFirebase';
+import ConsultaListadoProductosNode from './ABMProductos/ConsultaListadoProductosNode';
 
 
 
@@ -11,7 +11,7 @@ function Home(){
     return(
         <div className="content">
          <h3 className='titu'> LISTADO DE PRODUCTOS </h3>
-         <ConsultaListadoProductosFireBase />
+         <ConsultaListadoProductosNode />
         </div>
 
     )

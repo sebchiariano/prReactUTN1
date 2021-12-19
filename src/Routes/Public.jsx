@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 
 import Home from '../Pages/Home'
-import Detalle from '../Pages/DetalleFireBase'
-import Compra from '../Pages/CompraFireBase'
+import Detalle from '../Pages/DetalleNode'
+import Compra from '../Pages/CompraNode'
 import Menu from '../Components/Menu'
 import Footer from '../Components/Footer'
 import NotFound from '../Components/NotFound';
@@ -10,8 +10,8 @@ import Login from '../Pages/Login';
 import Registro from '../Pages/RegistroRHFFormGroup'
 import InfoUsuario from '../Pages/InfoUsuario'
 
-import AltaProducto from '../Pages/ABMProductos/AltaProductoFireBase'
-import ModificacionProducto from '../Pages/ABMProductos/ModificacionProductoFireBase'
+import AltaProducto from '../Pages/ABMProductos/AltaProductoNode'
+import ModificacionProducto from '../Pages/ABMProductos/ModificacionProductoNode'
 
 import '../styles/Public.css'
 

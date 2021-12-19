@@ -25,17 +25,19 @@ function AltaProducto(){
     
   
     const [loadingSubmit, setLoadingSubmit] = useState(false);
+    
 
      const onSubmit = async (form) => {  
         
             setLoadingSubmit(true);
-            console.log("data", form);
-
+            console.log("dataProducto:", form);
+            
             try{
 
                 const documentDB = await firebase.db.collection("productos")
                 .add(form);
                 console.log("documentoDB",documentDB);
+                
                 
 
                 alert('Se ha guardado el producto')
@@ -50,6 +52,8 @@ function AltaProducto(){
             }
 
             setLoadingSubmit(false);
+
+            
 
      }
 
@@ -116,7 +120,7 @@ function AltaProducto(){
                      </ButtonWithLoading>
                     </p>
 
-
+                 
              </form>
 
         </div>
